@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    max-width: 920px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo>img{
+    width: 155px;
+    height: 85px;
+}
+
+.menu{
+    margin-left: 20px;
+    /* width: 600px; */
+
+}
+
+ul{
+    display: flex;
+    /* margin: 50px; */
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    font-size: 13px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #D2691E;
+    border-bottom: 3px solid;
+}
+
+.cart-industries{
+    display: flex;
+    justify-content: center;
+    /* font-size: 30px; */
+
+}
+
+.infor .infor-title{
+    margin-top: 30px;
+    color: #003366;
+}
+
+.infor .content{
+    border-left: 5px solid #003366;
+}
+
+.content > p{
+    font-size: 15px;
+    margin-left: 10px;
+    /* text-align: justify; */
+}
+
+.infor-img-1 > img{
+    width: 345px;
+    height: 220px;
+    margin-left: 50px;
+}
+
+.btn-industries{
+    background-color: #003366;
+    color: white;
+    border: 0px solid;
+    width: 90px;
+}
+
+.cart-consumer-electronics{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.infor-2{
+    display: block;
+    margin-left: 50px;
+}
+
+.infor-title-2 > h6 >i{
+    border-top: 5px solid #003366;
+}
+
+.infor-img-2 > img{
+    width: 310px;
+    height: 230px;
+}
+
+.content-2 > p{
+    font-size: 15px;
+    
+}
+
+
+.btn-consumer{
+    background-color: #003366;
+    color: white;
+    border: 0px solid;
+    width: 110px;
+}
