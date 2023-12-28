@@ -100,7 +100,7 @@ li:hover{
 
 .content-2 > p{
     font-size: 15px;
-    
+    text-align: justify;
 }
 
 
@@ -109,4 +109,52 @@ li:hover{
     color: white;
     border: 0px solid;
     width: 110px;
+}
+
+.infor-3{
+    text-align: right;
+    /* margin-right: 50px; */
+    justify-content: space-evenly;
+}
+
+.infor-title-3 > h6 >i{
+    border-top: 5px solid #003366;
+}
+
+.infor-img-3 img{
+    width: 310px;
+    height: 230px;
+    margin-left: 50px;
+}
+
+.content-3 > p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.menu-ft li {
+    font-size: 10px;
+}
+
+.contact-ft{
+    display: flex;
+}
+
+.telephone{
+    font-size: 15px;
+}
+
+.contact-ft-icon{
+    margin-left: 10px;
+}
+
+.contact-ft-icon img{
+    width: 30px;
+    height: 30px;
 }
