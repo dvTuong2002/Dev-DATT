@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo img{
+    max-width: 70%;
+}
+
+.menu{
+    margin-top: 10px;
+    margin-left: 100px;
+    /* width: 600px; */
+
+}
+
+ul{
+    display: flex;
+    /* margin: 50px; */
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    font-size: 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #c5ad3d;
+    border-bottom: 3px solid;
+}
+
+.banner h3{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    height: auto; 
+}
